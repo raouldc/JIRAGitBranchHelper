@@ -1,0 +1,16 @@
+{
+  "name": "PP JIRA Branch Creator",
+  "description": "Creates a local git branch for the current JIRA Ticket",
+  "version": "2.0",
+  "content_scripts": [
+    {
+      "matches": ["https://pushpay.atlassian.net/browse/PP-*"],
+      "css": ["styles.css"],
+      "js": ["jquery.js", "jquery-ui.min.js","contentscript.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    "images/*.png"
+  ],
+  "manifest_version": 2
+}

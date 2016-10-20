@@ -1,0 +1,12 @@
+.new-git-branch {
+    background: transparent url(chrome-extension://fidjnjjffdgnhkcomafogfcdlifljcbm/images/git-branch-16.png) no-repeat 0 0;
+    display: inline-block;
+    height: 16px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    text-align: left;
+    text-indent: -999em;
+    vertical-align: text-top;
+    width: 16px;
+}
